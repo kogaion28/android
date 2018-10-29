@@ -1,0 +1,10 @@
+document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.29.2";
+window.addEventListener("deviceorientation",on_device_orientarion)
+
+function on_device_orientarion(e)
+
+{
+	document.getElementById("id_alpha").innerHTML= e.alpha;
+	document.getElementById("id_beta").innerHTML = e.beta;
+	document.getElementById("id_gamma") . innerHTML = e.gamma;
+}
